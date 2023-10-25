@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.pr3.parcial2.viewControllers.LoginViewController">
+   <children>
+      <TextField fx:id="txtUsuario" alignment="CENTER" layoutX="193.0" layoutY="53.0" promptText="Usuario" />
+      <Button fx:id="btnIngresar" layoutX="193.0" layoutY="214.0" mnemonicParsing="false" onAction="#showVentana" prefHeight="25.0" prefWidth="149.0" text="Ingresar" />
+      <PasswordField fx:id="txtPassword" alignment="CENTER" layoutX="193.0" layoutY="125.0" promptText="Contraseña" />
+   </children>
+</AnchorPane>
